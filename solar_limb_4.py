@@ -68,9 +68,7 @@ def plot_graph(x_data,y_data,y_fitted):
     ax1.plot(x_data,y_data,'.',color='royalblue',markersize=1) 
     ax1.plot(x_data,y_fitted,'-',color='red',markersize=1) 
     plt.show()
-    
-    return 
-
+ 
 
 def darkening_function(r, a, b, c):
     '''
@@ -389,18 +387,9 @@ def main():
         y_darkening_fit.append(darkening_function(x, coeff_a, coeff_b, coeff_c))
     plot_graph(rescaled_x_data, rescaled_y_data, y_darkening_fit)
         
-    return 
-
-
+  
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
 
 
 
