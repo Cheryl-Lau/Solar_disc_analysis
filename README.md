@@ -21,4 +21,4 @@ This code generates estimations for the coefficients by fitting a linear curve t
 The final fitted curve with the output coefficients is shown in Fig 5. Check if it makes sense. 
 
 
-P.S. If anyone can make a smarter search algorithm instead of doing just a "blind scan" that would be much appreciated. 
+P.S. If anyone can make a smarter search algorithm instead of doing just a "blind scan" please add it in thanks. 
